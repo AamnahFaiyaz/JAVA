@@ -1,0 +1,23 @@
+class Main {
+    void add(int x, int y) {
+        int c = x + y;
+        System.out.println("Sum is " + c);
+    }
+
+    void add(int k) {
+        int p = k + k;
+        System.out.println("Sum is " + p);
+    }
+
+    void add(int l, int m, int o) {
+        int s = l + m + o;
+        System.out.println("Sum is " + s);
+    }
+
+    public static void main(String[] args) {
+        Main k = new Main();
+        k.add(10, 20);
+        k.add(17);
+        k.add(10, 15, 20);
+    }
+}
