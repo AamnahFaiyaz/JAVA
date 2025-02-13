@@ -1,0 +1,23 @@
+class Main {
+    void add(int x, int y) {
+        int c = x + y;
+        System.out.println("Sum is " + c);
+    }
+
+    void sub(int k, int l) {
+        int m = k - l;
+        System.out.println("Sub is " + m);
+    }
+
+    void mul(int a, int b) {
+        int d = a * b;
+        System.out.println("Mul is " + d);
+    }
+
+    public static void main(String[] args) {
+        Main k = new Main(); // Fixed the class name
+        k.add(10, 20);
+        k.sub(15, 15);
+        k.mul(11, 3);
+    }
+}
