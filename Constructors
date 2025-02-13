@@ -1,0 +1,18 @@
+class Main {
+    int a, b, c;
+
+    Main() {  // Constructor
+        a = 10;
+        b = 20;
+    }
+
+    void sum() {
+        c = a + b;
+        System.out.println("Sum is " + c);
+    }
+
+    public static void main(String[] args) {
+        Main t = new Main();  // Object creation
+        t.sum();  // Method calling
+    }
+}
